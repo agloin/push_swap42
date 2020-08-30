@@ -1,5 +1,5 @@
 
-#include "push_swap.h"
+#include "../includes/push_swap.h"
 #include <stdio.h>
 
 int    is_digit(char **argv)
@@ -31,7 +31,7 @@ int    is_digit(char **argv)
 }
 
 /*
- * check fo repeat
+ * check fo duplicate
  */
 
 int     is_repeat(char **argv)

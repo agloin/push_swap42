@@ -844,31 +844,44 @@ CMakeFiles/push_swap.dir/libft/ft_toupper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/libft/ft_toupper.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/agloin/Desktop/intra/push_swap/libft/ft_toupper.c -o CMakeFiles/push_swap.dir/libft/ft_toupper.c.s
 
-CMakeFiles/push_swap.dir/checker.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/checker.c.o: ../checker.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/push_swap.dir/checker.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/checker.c.o   -c /Users/agloin/Desktop/intra/push_swap/checker.c
+CMakeFiles/push_swap.dir/src/checker.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/src/checker.c.o: ../src/checker.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/push_swap.dir/src/checker.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/checker.c.o   -c /Users/agloin/Desktop/intra/push_swap/src/checker.c
 
-CMakeFiles/push_swap.dir/checker.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/checker.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/agloin/Desktop/intra/push_swap/checker.c > CMakeFiles/push_swap.dir/checker.c.i
+CMakeFiles/push_swap.dir/src/checker.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/checker.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/agloin/Desktop/intra/push_swap/src/checker.c > CMakeFiles/push_swap.dir/src/checker.c.i
 
-CMakeFiles/push_swap.dir/checker.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/checker.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/agloin/Desktop/intra/push_swap/checker.c -o CMakeFiles/push_swap.dir/checker.c.s
+CMakeFiles/push_swap.dir/src/checker.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/checker.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/agloin/Desktop/intra/push_swap/src/checker.c -o CMakeFiles/push_swap.dir/src/checker.c.s
 
-CMakeFiles/push_swap.dir/lst_new.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/lst_new.c.o: ../lst_new.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/push_swap.dir/lst_new.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/lst_new.c.o   -c /Users/agloin/Desktop/intra/push_swap/lst_new.c
+CMakeFiles/push_swap.dir/src/lst_new.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/src/lst_new.c.o: ../src/lst_new.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/push_swap.dir/src/lst_new.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/lst_new.c.o   -c /Users/agloin/Desktop/intra/push_swap/src/lst_new.c
 
-CMakeFiles/push_swap.dir/lst_new.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/lst_new.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/agloin/Desktop/intra/push_swap/lst_new.c > CMakeFiles/push_swap.dir/lst_new.c.i
+CMakeFiles/push_swap.dir/src/lst_new.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/lst_new.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/agloin/Desktop/intra/push_swap/src/lst_new.c > CMakeFiles/push_swap.dir/src/lst_new.c.i
 
-CMakeFiles/push_swap.dir/lst_new.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/lst_new.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/agloin/Desktop/intra/push_swap/lst_new.c -o CMakeFiles/push_swap.dir/lst_new.c.s
+CMakeFiles/push_swap.dir/src/lst_new.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/lst_new.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/agloin/Desktop/intra/push_swap/src/lst_new.c -o CMakeFiles/push_swap.dir/src/lst_new.c.s
+
+CMakeFiles/push_swap.dir/src/push_swap.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/src/push_swap.c.o: ../src/push_swap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/push_swap.dir/src/push_swap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/push_swap.c.o   -c /Users/agloin/Desktop/intra/push_swap/src/push_swap.c
+
+CMakeFiles/push_swap.dir/src/push_swap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/push_swap.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/agloin/Desktop/intra/push_swap/src/push_swap.c > CMakeFiles/push_swap.dir/src/push_swap.c.i
+
+CMakeFiles/push_swap.dir/src/push_swap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/push_swap.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/agloin/Desktop/intra/push_swap/src/push_swap.c -o CMakeFiles/push_swap.dir/src/push_swap.c.s
 
 # Object files for target push_swap
 push_swap_OBJECTS = \
@@ -931,8 +944,9 @@ push_swap_OBJECTS = \
 "CMakeFiles/push_swap.dir/libft/ft_strtrim.c.o" \
 "CMakeFiles/push_swap.dir/libft/ft_tolower.c.o" \
 "CMakeFiles/push_swap.dir/libft/ft_toupper.c.o" \
-"CMakeFiles/push_swap.dir/checker.c.o" \
-"CMakeFiles/push_swap.dir/lst_new.c.o"
+"CMakeFiles/push_swap.dir/src/checker.c.o" \
+"CMakeFiles/push_swap.dir/src/lst_new.c.o" \
+"CMakeFiles/push_swap.dir/src/push_swap.c.o"
 
 # External object files for target push_swap
 push_swap_EXTERNAL_OBJECTS =
@@ -996,11 +1010,12 @@ push_swap: CMakeFiles/push_swap.dir/libft/ft_strsub.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_strtrim.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_tolower.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_toupper.c.o
-push_swap: CMakeFiles/push_swap.dir/checker.c.o
-push_swap: CMakeFiles/push_swap.dir/lst_new.c.o
+push_swap: CMakeFiles/push_swap.dir/src/checker.c.o
+push_swap: CMakeFiles/push_swap.dir/src/lst_new.c.o
+push_swap: CMakeFiles/push_swap.dir/src/push_swap.c.o
 push_swap: CMakeFiles/push_swap.dir/build.make
 push_swap: CMakeFiles/push_swap.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Linking C executable push_swap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Linking C executable push_swap"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/push_swap.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

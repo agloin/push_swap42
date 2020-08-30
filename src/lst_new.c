@@ -1,4 +1,4 @@
-#include "push_swap.h"
+#include "../includes/push_swap.h"
 #include <stdio.h>
 
 t_stack     *ft_lst_new(char **str)
@@ -26,18 +26,20 @@ t_stack     *ft_lst_new(char **str)
     return (begin);
 }
 
-//int main(int argc, char **argv)
-//{
-//    if (argc > 1)
-//    {
-//        t_stack *lst;
-//
-//        lst = ft_lst_new(argv);
-//        while(lst)
-//        {
-//            printf("lst = %d\n", lst->num);
-//            lst = lst->next;
-//        }
-//    }
-//    return (0);
-//}
+/*
+ * int main(int argc, char **argv)
+{
+    if (argc > 1)
+    {
+        t_stack *lst;
+
+        lst = ft_lst_new(argv);
+        while(lst)
+        {
+            printf("lst = %d\n", lst->num);
+            lst = lst->next;
+        }
+    }
+    return (0);
+}
+ */

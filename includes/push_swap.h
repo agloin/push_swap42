@@ -6,7 +6,7 @@
 #define PUSH_SWAP_H
 
 #include <unistd.h>
-#include "libft/libft.h"
+#include "../libft/libft.h"
 #include <stdlib.h>
 
 
@@ -16,4 +16,4 @@ typedef struct  t_list
     struct t_list       *next;
 }               t_stack;
 
-#endif //INTRA_PUSH_SWAP_H
+#endif //PUSH_SWAP_H

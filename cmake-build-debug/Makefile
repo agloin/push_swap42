@@ -143,33 +143,6 @@ push_swap/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/build
 .PHONY : push_swap/fast
 
-checker.o: checker.c.o
-
-.PHONY : checker.o
-
-# target to build an object file
-checker.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker.c.o
-.PHONY : checker.c.o
-
-checker.i: checker.c.i
-
-.PHONY : checker.i
-
-# target to preprocess a source file
-checker.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker.c.i
-.PHONY : checker.c.i
-
-checker.s: checker.c.s
-
-.PHONY : checker.s
-
-# target to generate assembly for a file
-checker.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker.c.s
-.PHONY : checker.c.s
-
 libft/ft_atoi.o: libft/ft_atoi.c.o
 
 .PHONY : libft/ft_atoi.o
@@ -1763,32 +1736,86 @@ libft/ft_toupper.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_toupper.c.s
 .PHONY : libft/ft_toupper.c.s
 
-lst_new.o: lst_new.c.o
+src/checker.o: src/checker.c.o
 
-.PHONY : lst_new.o
+.PHONY : src/checker.o
 
 # target to build an object file
-lst_new.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/lst_new.c.o
-.PHONY : lst_new.c.o
+src/checker.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/checker.c.o
+.PHONY : src/checker.c.o
 
-lst_new.i: lst_new.c.i
+src/checker.i: src/checker.c.i
 
-.PHONY : lst_new.i
+.PHONY : src/checker.i
 
 # target to preprocess a source file
-lst_new.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/lst_new.c.i
-.PHONY : lst_new.c.i
+src/checker.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/checker.c.i
+.PHONY : src/checker.c.i
 
-lst_new.s: lst_new.c.s
+src/checker.s: src/checker.c.s
 
-.PHONY : lst_new.s
+.PHONY : src/checker.s
 
 # target to generate assembly for a file
-lst_new.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/lst_new.c.s
-.PHONY : lst_new.c.s
+src/checker.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/checker.c.s
+.PHONY : src/checker.c.s
+
+src/lst_new.o: src/lst_new.c.o
+
+.PHONY : src/lst_new.o
+
+# target to build an object file
+src/lst_new.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/lst_new.c.o
+.PHONY : src/lst_new.c.o
+
+src/lst_new.i: src/lst_new.c.i
+
+.PHONY : src/lst_new.i
+
+# target to preprocess a source file
+src/lst_new.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/lst_new.c.i
+.PHONY : src/lst_new.c.i
+
+src/lst_new.s: src/lst_new.c.s
+
+.PHONY : src/lst_new.s
+
+# target to generate assembly for a file
+src/lst_new.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/lst_new.c.s
+.PHONY : src/lst_new.c.s
+
+src/push_swap.o: src/push_swap.c.o
+
+.PHONY : src/push_swap.o
+
+# target to build an object file
+src/push_swap.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap.c.o
+.PHONY : src/push_swap.c.o
+
+src/push_swap.i: src/push_swap.c.i
+
+.PHONY : src/push_swap.i
+
+# target to preprocess a source file
+src/push_swap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap.c.i
+.PHONY : src/push_swap.c.i
+
+src/push_swap.s: src/push_swap.c.s
+
+.PHONY : src/push_swap.s
+
+# target to generate assembly for a file
+src/push_swap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap.c.s
+.PHONY : src/push_swap.c.s
 
 # Help Target
 help:
@@ -1799,9 +1826,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... push_swap"
-	@echo "... checker.o"
-	@echo "... checker.i"
-	@echo "... checker.s"
 	@echo "... libft/ft_atoi.o"
 	@echo "... libft/ft_atoi.i"
 	@echo "... libft/ft_atoi.s"
@@ -1979,9 +2003,15 @@ help:
 	@echo "... libft/ft_toupper.o"
 	@echo "... libft/ft_toupper.i"
 	@echo "... libft/ft_toupper.s"
-	@echo "... lst_new.o"
-	@echo "... lst_new.i"
-	@echo "... lst_new.s"
+	@echo "... src/checker.o"
+	@echo "... src/checker.i"
+	@echo "... src/checker.s"
+	@echo "... src/lst_new.o"
+	@echo "... src/lst_new.i"
+	@echo "... src/lst_new.s"
+	@echo "... src/push_swap.o"
+	@echo "... src/push_swap.i"
+	@echo "... src/push_swap.s"
 .PHONY : help
 
 

@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/agloin/Desktop/intra/push_swap/checker.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/checker.c.o"
   "/Users/agloin/Desktop/intra/push_swap/libft/ft_atoi.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_atoi.c.o"
   "/Users/agloin/Desktop/intra/push_swap/libft/ft_bzero.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_bzero.c.o"
   "/Users/agloin/Desktop/intra/push_swap/libft/ft_check.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_check.c.o"
@@ -64,14 +63,17 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/agloin/Desktop/intra/push_swap/libft/ft_strtrim.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strtrim.c.o"
   "/Users/agloin/Desktop/intra/push_swap/libft/ft_tolower.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_tolower.c.o"
   "/Users/agloin/Desktop/intra/push_swap/libft/ft_toupper.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_toupper.c.o"
-  "/Users/agloin/Desktop/intra/push_swap/lst_new.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/lst_new.c.o"
+  "/Users/agloin/Desktop/intra/push_swap/src/checker.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/checker.c.o"
+  "/Users/agloin/Desktop/intra/push_swap/src/lst_new.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/lst_new.c.o"
+  "/Users/agloin/Desktop/intra/push_swap/src/push_swap.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/push_swap.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "../."
+  "../includes"
   "../libft"
+  "../src"
   )
 
 # Targets to which this target links.
