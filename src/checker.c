@@ -39,11 +39,8 @@ int    is_digit(char **argv)
 int     is_repeat(char **argv)
 {
     if (is_digit(argv) != 1)
-    {
-        write(1, "Error\n", 6);
         return (1);
-    }
-    else if (is_digit(argv) == 1) // if there are all numbers, in argv
+    else if (is_digit(argv) == 1)// if there are all numbers, in argv
     {
         int i;
         int j;
