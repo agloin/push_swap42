@@ -70,7 +70,7 @@ SRC =	ft_atoi.c\
 	  ft_lstdel.c\
 	  ft_lstadd.c\
 	  ft_lstiter.c\
-	  ft_lstmap.c
+# 	  ft_lstmap.c
 
 OBJS = $(SRC:.c=.o)
 

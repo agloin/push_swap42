@@ -2,6 +2,7 @@
 #include "../includes/push_swap.h"
 #include <stdio.h>
 
+
 int    is_digit(char **argv)
 {
     int i;
@@ -9,7 +10,8 @@ int    is_digit(char **argv)
     i = 1;
     while(argv[i])
     {
-        if (ft_isdigit(*argv[i] != 0))
+//        printf("argv[1] = %s\n", argv[i]);
+        if (ft_isdigit(*argv[i]) == 0)
         {
             printf("Error\n");
             return (0);
@@ -36,66 +38,68 @@ int    is_digit(char **argv)
 
 int     is_repeat(char **argv)
 {
-    if (is_digit(argv) == 1)
+    if (is_digit(argv) == 1) // if there are all numbers, in argv
     {
         int i;
         int j;
 
-        j = 2;
         i = 1;
         while (argv[i])
         {
+            j = i + 1;
             while (argv[j])
             {
                 if (argv[i] == argv[j])
                 {
                     write(1, "Error\n", 6);
-                    return (0);
+                    return (1);
                 }
+                printf("argv[i] = %s\nargv[j] = %s\n", argv[i], argv[j]);
                 j++;
             }
             i++;
         }
     }
-    return (1);
+    return (0);
 }
 
-void		ft_stack_add(t_stack **alst, t_stack *new)
-{
-    new->next = *alst;
-    *alst = new;
-}
-
-t_stack     *ft_new_stack(int num)
-{
-    t_stack     *tmp;
-
-    if (!(tmp = (t_stack *)malloc(sizeof(t_stack))))
-        return (NULL);
-    if (!num)
-        return (NULL);
-    tmp->num = num;
-    return (tmp);
-}
+//void		ft_stack_add(t_stack **alst, t_stack *new)
+//{
+//    new->next = *alst;
+//    *alst = new;
+//}
+//
+//t_stack     *ft_new_stack(int num)
+//{
+//    t_stack     *tmp;
+//
+//    if (!(tmp = (t_stack *)malloc(sizeof(t_stack))))
+//        return (NULL);
+//    if (!num)
+//        return (NULL);
+//    tmp->num = num;
+//    return (tmp);
+//}
 
 int main(int argc, char **argv)
 {
-    t_stack     *a;
     int i;
 
-    a = NULL;
     i = 1;
-
-    while (i != argc)
+    if (argc > 1)
     {
+        printf("is_repeat = %d\nis_digit = %d\n", is_repeat(argv), is_digit(argv));
         t_stack *tmp;
-        int num;
 
-        num =  (int)ft_atoi(argv[i]);
-        tmp = ft_new_stack(num);
-        ft_stack_add(&a, tmp);
-        printf("%d\n", a->num);
-        i++;
+        tmp = ft_lst_new(argv);
+        if (is_digit(argv) == 1 && is_repeat(argv) == 0)
+        {
+            while (tmp)
+            {
+                printf("%d\n", tmp->num);
+                tmp = tmp->next;
+            }
+        }
     }
     return(0);
 }

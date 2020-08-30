@@ -16,4 +16,7 @@ typedef struct  t_list
     struct t_list       *next;
 }               t_stack;
 
+
+t_stack     *ft_lst_new(char **str);
+
 #endif //PUSH_SWAP_H
