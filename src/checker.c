@@ -21,8 +21,8 @@ int    is_digit(char **argv)
             /*
              * проверка на MAX_INT (long    ft_atoi(char *str)
              */
-            if (!(ft_atoi(argv[i]) >= -2147483648 &&
-                  ft_atoi(argv[i]) <= 2147483647)) // можно проверить на количество символов, чтобы оно не превышало 10 шт
+            if (ft_strlen(argv[i]) > 11 || (ft_atoi(argv[i]) <= -2147483648 &&
+                  ft_atoi(argv[i]) >= 2147483647)) // можно проверить на количество символов, чтобы оно не превышало 10 шт
             {
                 printf("Error\n");
                 return (0);
