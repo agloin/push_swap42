@@ -14,6 +14,7 @@
 # define LIBFT_H
 
 # include <unistd.h>
+# include <limits.h>
 # include <stdlib.h>
 # include <string.h>
 
@@ -21,7 +22,7 @@ typedef struct		s_list
 {
 	void			*content;
 	size_t			content_size;
-	struct s_list	*next;
+	struct s_list           *next;
 }					t_list;
 
 void				*ft_memset(void *dest, int c, size_t n);
@@ -80,6 +81,7 @@ void				ft_putstr_fd(char const *s, int fd);
 void				ft_putendl_fd(char const *s, int fd);
 void				ft_putnbr_fd(int n, int fd);
 int					ft_check(int c);
+void                ft_swap_int(int *a, int *b);
 
 t_list				*ft_lstnew(const void *content, size_t content_size);
 void				ft_lstdelone(t_list **alst, void (*del)(void *, size_t));
