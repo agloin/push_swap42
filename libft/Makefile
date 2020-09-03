@@ -71,6 +71,8 @@ SRC =	ft_atoi.c\
 	  ft_lstadd.c\
 	  ft_lstiter.c\
 	  ft_swap_int\
+	  ft_isdigit_str\
+
 # 	  ft_lstmap.c
 
 OBJS = $(SRC:.c=.o)

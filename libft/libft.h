@@ -14,6 +14,8 @@
 # define LIBFT_H
 
 # include <unistd.h>
+# include "sys/types.h"
+# include <unistd.h>
 # include <limits.h>
 # include <stdlib.h>
 # include <string.h>
@@ -24,6 +26,7 @@ typedef struct		s_list
 	size_t			content_size;
 	struct s_list           *next;
 }					t_list;
+
 
 void				*ft_memset(void *dest, int c, size_t n);
 void				ft_bzero(void *s, size_t n);
@@ -50,6 +53,7 @@ int					ft_strncmp(const char *str1, const char *str2, size_t n);
 long				ft_atoi(const char *str);
 int					ft_isalpha(int ch);
 int					ft_isdigit(int ch);
+int                 ft_isdigit_str(char *str);
 int					ft_isalnum(int ch);
 int					ft_isascii(int ch);
 int					ft_isprint(int ch);
@@ -81,7 +85,7 @@ void				ft_putstr_fd(char const *s, int fd);
 void				ft_putendl_fd(char const *s, int fd);
 void				ft_putnbr_fd(int n, int fd);
 int					ft_check(int c);
-void                ft_swap_int(int *a, int *b);
+void				ft_swap_int(int *a, int *b);
 
 t_list				*ft_lstnew(const void *content, size_t content_size);
 void				ft_lstdelone(t_list **alst, void (*del)(void *, size_t));

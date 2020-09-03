@@ -10,19 +10,16 @@ int    is_digit(char **argv)
     i = 1;
     while(argv[i])
     {
-//        printf("argv[1] = %s\n", argv[i]);
-        if (ft_isdigit(*argv[i]) == 0)
+        if (ft_isdigit_str(argv[i]) == 0) //эта паскуда проверяет только положительные числа в строке
         {
+//            printf("1111111\n");
             printf("Error\n");
             return (0);
         }
         else
         {
-            /*
-             * проверка на MAX_INT (long    ft_atoi(char *str)
-             */
-            if (ft_strlen(argv[i]) > 11 || (ft_atoi(argv[i]) <= -2147483648 &&
-                  ft_atoi(argv[i]) >= 2147483647)) // можно проверить на количество символов, чтобы оно не превышало 10 шт
+            if (ft_strlen(argv[i]) > 11 || ft_atoi(argv[i]) < -2147483648 ||
+                  ft_atoi(argv[i]) > 2147483647) // можно проверить на количество символов, чтобы оно не превышало 10 шт
             {
                 printf("Error\n");
                 return (0);
@@ -64,24 +61,6 @@ int     is_repeat(char **argv)
     }
     return (0);
 }
-
-//void		ft_stack_add(t_stack **alst, t_stack *new)
-//{
-//    new->next = *alst;
-//    *alst = new;
-//}
-//
-//t_stack     *ft_new_stack(int num)
-//{
-//    t_stack     *tmp;
-//
-//    if (!(tmp = (t_stack *)malloc(sizeof(t_stack))))
-//        return (NULL);
-//    if (!num)
-//        return (NULL);
-//    tmp->num = num;
-//    return (tmp);
-//}
 
 int main(int argc, char **argv)
 {

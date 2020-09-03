@@ -1,22 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_swap_int.c                                      :+:      :+:    :+:   */
+/*   ss.c                                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: agloin <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/08/31 11:47:47 by agloin            #+#    #+#             */
-/*   Updated: 2020/08/31 11:47:48 by agloin           ###   ########.fr       */
+/*   Created: 2020/09/03 14:56:03 by agloin            #+#    #+#             */
+/*   Updated: 2020/09/03 14:56:05 by agloin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/push_swap.h"
 
-void		ft_swap_int(int *a, int *b)
+void    ss(t_stack *stack_a, t_stack *stack_b)
 {
-    int		c;
-
-    c = *a;
-    *a = *b;
-    *b = c;
+    sa_sb(stack_a);
+    sa_sb(stack_b);
 }
