@@ -12,11 +12,15 @@
 
 #include "../includes/push_swap.h"
 
-void    rrr(t_stack **stack_a, t_stack **stack_b)
+int check_ascending_oder(t_stack *stack, t_stack *stack_b)
 {
-    if (*stack_a && (*stack_a)->next && *stack_b && (*stack_b)->next)
+    while(stack && stack->next)
     {
-        rra_rrb(stack_a);
-        rra_rrb(stack_b);
+        if (stack->num > stack->next->num)
+            return (0);
+        stack = stack->next;
     }
+    if (stack_b != NULL)
+        return (0);
+    return (1);
 }

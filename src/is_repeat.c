@@ -12,11 +12,30 @@
 
 #include "../includes/push_swap.h"
 
-void    rrr(t_stack **stack_a, t_stack **stack_b)
+int     is_repeat(char **argv)
 {
-    if (*stack_a && (*stack_a)->next && *stack_b && (*stack_b)->next)
+    if (is_digit(argv) != 1)
+        return (1);
+    else if (is_digit(argv) == 1)// if there are all numbers, of argv
     {
-        rra_rrb(stack_a);
-        rra_rrb(stack_b);
+        int i;
+        int j;
+
+        i = 1;
+        while (argv[i])
+        {
+            j = i + 1;
+            while (argv[j])
+            {
+                if (ft_atoi(argv[i]) == ft_atoi(argv[j]))
+                {
+                    write(1, "Error\n", 6);
+                    return (1);
+                }
+                j++;
+            }
+            i++;
+        }
     }
+    return (0);
 }

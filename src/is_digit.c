@@ -12,11 +12,28 @@
 
 #include "../includes/push_swap.h"
 
-void    rrr(t_stack **stack_a, t_stack **stack_b)
+int    is_digit(char **argv)
 {
-    if (*stack_a && (*stack_a)->next && *stack_b && (*stack_b)->next)
+    int i;
+
+    i = 1;
+    while(argv[i])
     {
-        rra_rrb(stack_a);
-        rra_rrb(stack_b);
+        if (ft_isdigit_str(argv[i]) == 0)
+        {
+            write(1, "Error\n", 6);
+            return (0);
+        }
+        else
+        {
+            if (ft_strlen(argv[i]) > 11 || ft_atoi(argv[i]) < -2147483648 ||
+                ft_atoi(argv[i]) > 2147483647) // можно проверить на количество символов, чтобы оно не превышало 10 шт
+            {
+                write(1, "Error\n", 6);
+                return (0);
+            }
+        }
+        i++;
     }
+    return (1);
 }

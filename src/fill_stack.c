@@ -12,11 +12,26 @@
 
 #include "../includes/push_swap.h"
 
-void    rrr(t_stack **stack_a, t_stack **stack_b)
+void fill_stack(t_stack **stack_a, char **argv)
 {
-    if (*stack_a && (*stack_a)->next && *stack_b && (*stack_b)->next)
+    t_stack *begin;
+    begin = NULL;
+    int i = 2;
+
+    (*stack_a) = (t_stack *)malloc(sizeof(t_stack));
+    (*stack_a)->num = (int)ft_atoi(argv[1]);
+    begin = (*stack_a);
+
+    while (argv[i])
     {
-        rra_rrb(stack_a);
-        rra_rrb(stack_b);
+        int num;
+
+        num = (int)ft_atoi(argv[i]);
+        (*stack_a)->next = (t_stack *)malloc(sizeof(t_stack));
+        (*stack_a) = (*stack_a)->next;
+        (*stack_a)->num = num;
+        i++;
     }
+    (*stack_a)->next = NULL;
+    (*stack_a) = begin;
 }
