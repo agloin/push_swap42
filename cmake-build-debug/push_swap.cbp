@@ -108,6 +108,9 @@
 		<Unit filename="/Users/agloin/Desktop/intra/push_swap/libft/ft_isdigit.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/agloin/Desktop/intra/push_swap/libft/ft_isdigit_str.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/agloin/Desktop/intra/push_swap/libft/ft_isprint.c">
 			<Option target="push_swap"/>
 		</Unit>
@@ -258,22 +261,55 @@
 		<Unit filename="/Users/agloin/Desktop/intra/push_swap/libft/ft_strtrim.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/agloin/Desktop/intra/push_swap/libft/ft_swap_int.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/agloin/Desktop/intra/push_swap/libft/ft_tolower.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/agloin/Desktop/intra/push_swap/libft/ft_toupper.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/agloin/Desktop/intra/push_swap/libft/get_next_line.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/agloin/Desktop/intra/push_swap/libft/libft.h">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/agloin/Desktop/intra/push_swap/src/checker.c">
+		<Unit filename="/Users/agloin/Desktop/intra/push_swap/src/check.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/agloin/Desktop/intra/push_swap/src/find_command.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/agloin/Desktop/intra/push_swap/src/lst_new.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/agloin/Desktop/intra/push_swap/src/pa.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/agloin/Desktop/intra/push_swap/src/pb.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/agloin/Desktop/intra/push_swap/src/push_swap.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/agloin/Desktop/intra/push_swap/src/ra_rb.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/agloin/Desktop/intra/push_swap/src/rr.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/agloin/Desktop/intra/push_swap/src/rra_rrb.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/agloin/Desktop/intra/push_swap/src/rrr.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/agloin/Desktop/intra/push_swap/src/sa_sb.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/agloin/Desktop/intra/push_swap/src/ss.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/agloin/Desktop/intra/push_swap/CMakeLists.txt">

@@ -1,31 +1,20 @@
 #include "../includes/push_swap.h"
 
-t_stack   *rra_rrb(t_stack *lst)
+void    rra_rrb(t_stack **stack)
 {
-    t_stack     *begin;
-    t_stack     *tmp;
+    if (*stack && (*stack)->next)
+    {
+        t_stack *first_element;
+        t_stack *predpos;
+        t_stack *last_elem;
 
-    begin = lst;
-    /*
-     * пролистываем до последнего листа
-     */
-    while (lst->next->next)
-    {
-        lst = lst->next;
+        first_element = *stack;
+        while ((*stack)->next && (*stack)->next->next) // predposl element
+            (*stack) = (*stack)->next;
+        predpos = *stack;
+        last_elem = (*stack)->next;
+        last_elem->next = first_element;
+        predpos->next = NULL;
+        *stack = last_elem;
     }
-    /*
-     * предпоследгий элемент
-     */
-    tmp = lst;
-    while (lst->next)
-    {
-        lst = lst->next;
-    }
-    /*
-     * ниже последний элемент мтал казваьб на первый.
-     * Предпоследний на NULL;
-     */
-    lst->next = begin;
-    tmp->next = NULL;
-    return (lst);
 }

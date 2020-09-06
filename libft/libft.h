@@ -19,6 +19,8 @@
 # include <limits.h>
 # include <stdlib.h>
 # include <string.h>
+# include "fcntl.h"
+
 
 typedef struct		s_list
 {
@@ -27,6 +29,11 @@ typedef struct		s_list
 	struct s_list           *next;
 }					t_list;
 
+
+
+
+
+int		            get_next_line(const int fd, char **line);
 
 void				*ft_memset(void *dest, int c, size_t n);
 void				ft_bzero(void *s, size_t n);
