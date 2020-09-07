@@ -66,20 +66,28 @@ void    push_stack_b(t_stack **stack_a, t_stack **stack_b,
 {
 //    t_stack *tmp;
     int     part_of_stack_a;
+    int     tmp_num;
+    t_stack *tmp;
 
+    tmp = *stack_a;
     part_of_stack_a = min_in_stack_a + find_three_parts;
     while (*stack_a)
     {
-        if ((*stack_a)->num > min_in_stack_a
-        && (*stack_a)->num < part_of_stack_a)
-            pb(stack_a, stack_b);
-        else
+        if ((*stack_a)->num < part_of_stack_a)
         {
-            /*
-             * -----------------------------This function-------------------------
-             */
-            *stack_a = (*stack_a)->next;
+            tmp_num = (*stack_a)->num;
+            *stack_a = tmp;
+            while (*stack_a && (*stack_a)->num != tmp_num)
+            {
+                //LOOK AT THIS FUNCTION-----------------------------
+
+                ra_rb(stack_a);
+                *stack_a = (*stack_a)->next;
+
+                //LOOK AT THIS FUNCTION-----------------------------
+            }
         }
+        *stack_a = (*stack_a)->next;
     }
 }
 

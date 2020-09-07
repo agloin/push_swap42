@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.15)
+cmake_minimum_required(VERSION 3.17)
 project(push_swap C)
 
 set(CMAKE_C_STANDARD 11)
@@ -72,8 +72,11 @@ add_executable(push_swap
         libft/ft_toupper.c
         libft/get_next_line.c
         libft/libft.h
-        src/checker
+        src/check_ascending_oder.c
+        src/fill_stack.c
         src/find_command.c
+        src/is_digit.c
+        src/is_repeat.c
         src/lst_new.c
         src/pa.c
         src/pb.c
