@@ -47,21 +47,40 @@ int     find_extremum(t_stack *stack_a, char *str)
  * divide stack_a by 3 part(min->mid->max
  */
 
+int     find_three_parts(int max_in_stack_a, int min_in_stack_a)
+{
+    return (((max_in_stack_a - min_in_stack_a) / 3));
+}
+
 int     find_mid_num(int max_in_stack_a, int min_in_stack_a)
 {
-    return (((min_in_stack_a + max_in_stack_a) / 2));
+    return (((max_in_stack_a + min_in_stack_a) / 2));
 }
 
 /*
- * push to stack_b elements from stack_a in the oder:--------------------------------------
+ * push to stack_b elements from stack_a in the oder;
+ * first do we find elements from the first part of our future sorted stack;
  */
-void    push_stack_b(t_stack **stack_a, t_stack stack_b)
+void    push_stack_b(t_stack **stack_a, t_stack **stack_b,
+                     int min_in_stack_a, int max_in_stack_a, int find_three_parts)
 {
-    t_stack *tmp_a;
+//    t_stack *tmp;
+    int     part_of_stack_a;
 
-    tmp_a = *stack_a;
-
-
+    part_of_stack_a = min_in_stack_a + find_three_parts;
+    while (*stack_a)
+    {
+        if ((*stack_a)->num > min_in_stack_a
+        && (*stack_a)->num < part_of_stack_a)
+            pb(stack_a, stack_b);
+        else
+        {
+            /*
+             * -----------------------------This function-------------------------
+             */
+            *stack_a = (*stack_a)->next;
+        }
+    }
 }
 
 int     main(int argc, char **argv)
@@ -81,6 +100,8 @@ int     main(int argc, char **argv)
         fill_stack(&stack_a, argv);
         nums->max_in_stack_a = find_extremum(stack_a, "max");
         nums->min_in_stack_a = find_extremum(stack_a, "min");
+        push_stack_b(&stack_a, &stack_b, nums->min_in_stack_a, nums->max_in_stack_a)
+        printf("find_three_parts = %d\n", find_three_parts(nums->max_in_stack_a, nums->min_in_stack_a));
 //        printf("max elem = %d\nmin ele, = %d\n", nums->max_in_stack_a, nums->min_in_stack_a);
     }
     return 0;

@@ -13,7 +13,7 @@
 #include "../includes/push_swap.h"
 
 /*
- * вять первый элемент из "stack_a" и поместить его в "stack_b"
+ * take the first elem of "stack_a" and push it into "stack_b" at the first place
  */
 void    pb(t_stack **stack_a, t_stack **stack_b)
 {
@@ -24,7 +24,7 @@ void    pb(t_stack **stack_a, t_stack **stack_b)
 
         tmp_b = *stack_a; // push the first elem of stack "a" into stack "b"
         tmp_a = (*stack_a)->next; // now stack "a" begin from second elem
-        tmp_b->next = (*stack_b); // the new first elemennt point to the old first element
+        tmp_b->next = (*stack_b); // the new first element point to the old first element
         *stack_b = tmp_b;
         *stack_a = tmp_a;
     }
