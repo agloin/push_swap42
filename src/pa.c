@@ -10,11 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/push_swap.h"
-
 /*
  * вять первый элемент из "stack_b" и поместить его в "stack_a"
  */
+
+#include "../includes/push_swap.h"
+
 void    pa(t_stack **stack_a, t_stack **stack_b)
 {
     if (*stack_b)

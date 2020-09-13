@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/agloin/school21/Intra/push_swap/includes/push_swap.h
+stdio.h
+-
+unistd.h
+-
+../libft/libft.h
+/home/agloin/school21/Intra/push_swap/libft/libft.h
+stdlib.h
+-
+
+/home/agloin/school21/Intra/push_swap/libft/libft.h
+unistd.h
+-
+sys/types.h
+/home/agloin/school21/Intra/push_swap/libft/sys/types.h
+unistd.h
+-
+limits.h
+-
+stdlib.h
+-
+string.h
+-
+fcntl.h
+/home/agloin/school21/Intra/push_swap/libft/fcntl.h
+
+/home/agloin/school21/Intra/push_swap/src/push_swap.c
+../includes/push_swap.h
+/home/agloin/school21/Intra/push_swap/includes/push_swap.h
+

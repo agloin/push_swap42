@@ -20,7 +20,11 @@ typedef struct  n_list
 {
     int         max_in_stack_a;
     int         min_in_stack_a;
-    int         midiana;
+    /*
+     * 'ниже значение разбитого на три части стека
+     */
+    int         find_three_parts_stack_a;
+    int         first_border_of_stack_a;
 }               num_list;
 
 int         find_command(char *line, t_stack **stack_a, t_stack **stack_b);
@@ -37,5 +41,8 @@ int         is_digit(char **argv);
 int         is_repeat(char **argv);
 int         check_ascending_oder(t_stack *stack, t_stack *stack_b);
 void        fill_stack(t_stack **stack_a, char **argv);
+int         ascending_oder(int num_stack_a, int num_stack_b);
+void        main_sort(t_stack **stack_a, t_stack **stack_b);
+void        exec_command(char *line, t_stack **stack_a, t_stack **stack_b);
 
 #endif

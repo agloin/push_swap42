@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.17)
+cmake_minimum_required(VERSION 3.15)
 project(push_swap C)
 
 set(CMAKE_C_STANDARD 11)
@@ -86,4 +86,6 @@ add_executable(push_swap
         src/rra_rrb.c
         src/rrr.c
         src/sa_sb.c
-        src/ss.c)
+        src/ss.c
+        src/main_sort.c
+        src/exec_command.c)

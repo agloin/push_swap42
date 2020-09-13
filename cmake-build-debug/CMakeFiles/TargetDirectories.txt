@@ -1,0 +1,3 @@
+/home/agloin/school21/Intra/push_swap/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/agloin/school21/Intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir
+/home/agloin/school21/Intra/push_swap/cmake-build-debug/CMakeFiles/edit_cache.dir

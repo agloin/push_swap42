@@ -48,10 +48,10 @@ RM = /home/agloin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6911.21/bin
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/agloin/school21/Intra/push_swap42
+CMAKE_SOURCE_DIR = /home/agloin/school21/Intra/push_swap
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/agloin/school21/Intra/push_swap42/cmake-build-debug
+CMAKE_BINARY_DIR = /home/agloin/school21/Intra/push_swap/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/agloin/school21/Intra/push_swap42/cmake-build-debug/CMakeFiles /home/agloin/school21/Intra/push_swap42/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/agloin/school21/Intra/push_swap/cmake-build-debug/CMakeFiles /home/agloin/school21/Intra/push_swap/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/agloin/school21/Intra/push_swap42/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/agloin/school21/Intra/push_swap/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -1797,32 +1797,86 @@ libft/get_next_line.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/get_next_line.c.s
 .PHONY : libft/get_next_line.c.s
 
-src/check.o: src/check.c.o
+src/check_ascending_oder.o: src/check_ascending_oder.c.o
 
-.PHONY : src/check.o
+.PHONY : src/check_ascending_oder.o
 
 # target to build an object file
-src/check.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/check.c.o
-.PHONY : src/check.c.o
+src/check_ascending_oder.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/check_ascending_oder.c.o
+.PHONY : src/check_ascending_oder.c.o
 
-src/check.i: src/check.c.i
+src/check_ascending_oder.i: src/check_ascending_oder.c.i
 
-.PHONY : src/check.i
+.PHONY : src/check_ascending_oder.i
 
 # target to preprocess a source file
-src/check.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/check.c.i
-.PHONY : src/check.c.i
+src/check_ascending_oder.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/check_ascending_oder.c.i
+.PHONY : src/check_ascending_oder.c.i
 
-src/check.s: src/check.c.s
+src/check_ascending_oder.s: src/check_ascending_oder.c.s
 
-.PHONY : src/check.s
+.PHONY : src/check_ascending_oder.s
 
 # target to generate assembly for a file
-src/check.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/check.c.s
-.PHONY : src/check.c.s
+src/check_ascending_oder.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/check_ascending_oder.c.s
+.PHONY : src/check_ascending_oder.c.s
+
+src/exec_command.o: src/exec_command.c.o
+
+.PHONY : src/exec_command.o
+
+# target to build an object file
+src/exec_command.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/exec_command.c.o
+.PHONY : src/exec_command.c.o
+
+src/exec_command.i: src/exec_command.c.i
+
+.PHONY : src/exec_command.i
+
+# target to preprocess a source file
+src/exec_command.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/exec_command.c.i
+.PHONY : src/exec_command.c.i
+
+src/exec_command.s: src/exec_command.c.s
+
+.PHONY : src/exec_command.s
+
+# target to generate assembly for a file
+src/exec_command.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/exec_command.c.s
+.PHONY : src/exec_command.c.s
+
+src/fill_stack.o: src/fill_stack.c.o
+
+.PHONY : src/fill_stack.o
+
+# target to build an object file
+src/fill_stack.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/fill_stack.c.o
+.PHONY : src/fill_stack.c.o
+
+src/fill_stack.i: src/fill_stack.c.i
+
+.PHONY : src/fill_stack.i
+
+# target to preprocess a source file
+src/fill_stack.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/fill_stack.c.i
+.PHONY : src/fill_stack.c.i
+
+src/fill_stack.s: src/fill_stack.c.s
+
+.PHONY : src/fill_stack.s
+
+# target to generate assembly for a file
+src/fill_stack.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/fill_stack.c.s
+.PHONY : src/fill_stack.c.s
 
 src/find_command.o: src/find_command.c.o
 
@@ -1851,6 +1905,60 @@ src/find_command.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/find_command.c.s
 .PHONY : src/find_command.c.s
 
+src/is_digit.o: src/is_digit.c.o
+
+.PHONY : src/is_digit.o
+
+# target to build an object file
+src/is_digit.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/is_digit.c.o
+.PHONY : src/is_digit.c.o
+
+src/is_digit.i: src/is_digit.c.i
+
+.PHONY : src/is_digit.i
+
+# target to preprocess a source file
+src/is_digit.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/is_digit.c.i
+.PHONY : src/is_digit.c.i
+
+src/is_digit.s: src/is_digit.c.s
+
+.PHONY : src/is_digit.s
+
+# target to generate assembly for a file
+src/is_digit.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/is_digit.c.s
+.PHONY : src/is_digit.c.s
+
+src/is_repeat.o: src/is_repeat.c.o
+
+.PHONY : src/is_repeat.o
+
+# target to build an object file
+src/is_repeat.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/is_repeat.c.o
+.PHONY : src/is_repeat.c.o
+
+src/is_repeat.i: src/is_repeat.c.i
+
+.PHONY : src/is_repeat.i
+
+# target to preprocess a source file
+src/is_repeat.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/is_repeat.c.i
+.PHONY : src/is_repeat.c.i
+
+src/is_repeat.s: src/is_repeat.c.s
+
+.PHONY : src/is_repeat.s
+
+# target to generate assembly for a file
+src/is_repeat.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/is_repeat.c.s
+.PHONY : src/is_repeat.c.s
+
 src/lst_new.o: src/lst_new.c.o
 
 .PHONY : src/lst_new.o
@@ -1877,6 +1985,33 @@ src/lst_new.s: src/lst_new.c.s
 src/lst_new.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/lst_new.c.s
 .PHONY : src/lst_new.c.s
+
+src/main_sort.o: src/main_sort.c.o
+
+.PHONY : src/main_sort.o
+
+# target to build an object file
+src/main_sort.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/main_sort.c.o
+.PHONY : src/main_sort.c.o
+
+src/main_sort.i: src/main_sort.c.i
+
+.PHONY : src/main_sort.i
+
+# target to preprocess a source file
+src/main_sort.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/main_sort.c.i
+.PHONY : src/main_sort.c.i
+
+src/main_sort.s: src/main_sort.c.s
+
+.PHONY : src/main_sort.s
+
+# target to generate assembly for a file
+src/main_sort.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/main_sort.c.s
+.PHONY : src/main_sort.c.s
 
 src/pa.o: src/pa.c.o
 
@@ -2316,15 +2451,30 @@ help:
 	@echo "... libft/get_next_line.o"
 	@echo "... libft/get_next_line.i"
 	@echo "... libft/get_next_line.s"
-	@echo "... src/check.o"
-	@echo "... src/check.i"
-	@echo "... src/check.s"
+	@echo "... src/check_ascending_oder.o"
+	@echo "... src/check_ascending_oder.i"
+	@echo "... src/check_ascending_oder.s"
+	@echo "... src/exec_command.o"
+	@echo "... src/exec_command.i"
+	@echo "... src/exec_command.s"
+	@echo "... src/fill_stack.o"
+	@echo "... src/fill_stack.i"
+	@echo "... src/fill_stack.s"
 	@echo "... src/find_command.o"
 	@echo "... src/find_command.i"
 	@echo "... src/find_command.s"
+	@echo "... src/is_digit.o"
+	@echo "... src/is_digit.i"
+	@echo "... src/is_digit.s"
+	@echo "... src/is_repeat.o"
+	@echo "... src/is_repeat.i"
+	@echo "... src/is_repeat.s"
 	@echo "... src/lst_new.o"
 	@echo "... src/lst_new.i"
 	@echo "... src/lst_new.s"
+	@echo "... src/main_sort.o"
+	@echo "... src/main_sort.i"
+	@echo "... src/main_sort.s"
 	@echo "... src/pa.o"
 	@echo "... src/pa.i"
 	@echo "... src/pa.s"

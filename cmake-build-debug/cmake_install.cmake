@@ -1,4 +1,4 @@
-# Install script for directory: /home/agloin/school21/Intra/push_swap42
+# Install script for directory: /home/agloin/school21/Intra/push_swap
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/agloin/school21/Intra/push_swap42/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/agloin/school21/Intra/push_swap/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
