@@ -21,6 +21,7 @@
 # include <string.h>
 # include "fcntl.h"
 
+# define BUFF_SIZE 2048
 
 typedef struct		s_list
 {
@@ -28,9 +29,6 @@ typedef struct		s_list
 	size_t			content_size;
 	struct s_list           *next;
 }					t_list;
-
-
-
 
 
 int		            get_next_line(const int fd, char **line);

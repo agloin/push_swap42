@@ -1,11 +1,10 @@
-cmake_minimum_required(VERSION 3.15)
+cmake_minimum_required(VERSION 3.17)
 project(push_swap C)
 
 set(CMAKE_C_STANDARD 11)
 
 include_directories(includes)
 include_directories(libft)
-include_directories(src)
 
 add_executable(push_swap
         includes/push_swap.h
@@ -72,20 +71,27 @@ add_executable(push_swap
         libft/ft_toupper.c
         libft/get_next_line.c
         libft/libft.h
-        src/check_ascending_oder.c
-        src/fill_stack.c
-        src/find_command.c
-        src/is_digit.c
-        src/is_repeat.c
-        src/lst_new.c
-        src/pa.c
-        src/pb.c
-        src/push_swap.c
-        src/ra_rb.c
-        src/rr.c
-        src/rra_rrb.c
-        src/rrr.c
-        src/sa_sb.c
-        src/ss.c
-        src/main_sort.c
-        src/exec_command.c)
+        push_swap_library/check_ascending_oder.c
+        push_swap_library/clean_memory.c
+        push_swap_library/exec_command.c
+        push_swap_library/fill_stack.c
+        push_swap_library/final_sort.c
+        push_swap_library/find_command.c
+        push_swap_library/find_extremum.c
+        push_swap_library/find_position.c
+        push_swap_library/is_digit.c
+        push_swap_library/is_repeat.c
+        push_swap_library/lst_new.c
+        push_swap_library/main_sort.c
+        push_swap_library/pa.c
+        push_swap_library/pb.c
+        push_swap_library/ra_rb.c
+        push_swap_library/rr.c
+        push_swap_library/rra_rrb.c
+        push_swap_library/rrr.c
+        push_swap_library/sa_sb.c
+        push_swap_library/sort_five_nums.c
+        push_swap_library/sort_three_nums.c
+        push_swap_library/ss.c
+        src_checker/checker.c
+        src_push_swap/push_swap.c)

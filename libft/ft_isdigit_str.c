@@ -12,32 +12,31 @@
 
 #include "libft.h"
 
-int     ft_isdigit_str(char *str)
+int		ft_isdigit_str(char *str)
 {
-    int i;
+	int i;
 
-    i = 0;
-
-    if (ft_strlen(str) > 1 && str[i] == '-')
-    {
-        i++;
-        while (str[i])
-        {
-            if (ft_isdigit(str[i]) != 1)
-                return (0);
-            i++;
-        }
-        if (ft_strlen(str) == i)
-            return (1);
-    }
-    else if (ft_strlen(str) == 1 && str[i] == '-')
-        return 0;
-    else if (str[i] != '-')
-        while (str[i])
-        {
-            if (ft_isdigit(str[i]) != 1)
-                return (0);
-            i++;
-        }
-    return (1);
+	i = 0;
+	if (ft_strlen(str) > 1 && str[i] == '-')
+	{
+		i++;
+		while (str[i])
+		{
+			if (ft_isdigit(str[i]) != 1)
+				return (0);
+			i++;
+		}
+		if (ft_strlen(str) == i)
+			return (1);
+	}
+	else if (ft_strlen(str) == 1 && str[i] == '-')
+		return (0);
+	else if (str[i] != '-')
+		while (str[i])
+		{
+			if (ft_isdigit(str[i]) != 1)
+				return (0);
+			i++;
+		}
+	return (1);
 }

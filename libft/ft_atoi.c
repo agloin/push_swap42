@@ -14,7 +14,7 @@
 
 long		ft_atoi(const char *str)
 {
-	long 	result;
+	long	result;
 	long	n;
 	long	i;
 
@@ -39,4 +39,3 @@ long		ft_atoi(const char *str)
 		return (0);
 	return (result * n);
 }
-

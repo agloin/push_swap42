@@ -11,8 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
-# define BUFF_SIZE 2048
 
 int		buffer_handler(char **buffer, char **line)
 {
@@ -60,7 +58,7 @@ int		get_next_line(const int fd, char **line)
 	char		*tmp;
 	char		buffer[BUFF_SIZE + 1];
 
-	if (fd < 0 || !line || fd > 10240 || BUFF_SIZE <= 0)
+	if ((fd < 0 || !line || fd > 10240) != 0)
 		return (-1);
 	if (dscptr[fd] && ft_strchr(dscptr[fd], '\n'))
 		return (buffer_handler(&dscptr[fd], line));
@@ -80,19 +78,3 @@ int		get_next_line(const int fd, char **line)
 			return (key);
 	return (buffer_handler(&dscptr[fd], line));
 }
-
-//int main(int argc, char **argv)
-//{
-//    char *line;
-//    int i;
-//    i = 1;
-//
-//    while (argv[i])
-//    {
-//        get_next_line(0, &line);
-//        printf("gnl = %s\n", line);
-//        i++;
-//    }
-//
-//    return 0;
-//}
