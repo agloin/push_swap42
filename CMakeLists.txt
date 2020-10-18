@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.17)
-project(push_swap C)
+project(push_swap42 C)
 
 set(CMAKE_C_STANDARD 11)
 
 include_directories(includes)
 include_directories(libft)
 
-add_executable(push_swap
+add_executable(push_swap42
         includes/push_swap.h
         libft/ft_atoi.c
         libft/ft_bzero.c
@@ -22,7 +22,6 @@ add_executable(push_swap
         libft/ft_lstdel.c
         libft/ft_lstdelone.c
         libft/ft_lstiter.c
-        libft/ft_lstmap.c
         libft/ft_lstnew.c
         libft/ft_memalloc.c
         libft/ft_memccpy.c
@@ -79,10 +78,12 @@ add_executable(push_swap
         push_swap_library/find_command.c
         push_swap_library/find_extremum.c
         push_swap_library/find_position.c
+        push_swap_library/functions_for_main_sort.c
         push_swap_library/is_digit.c
         push_swap_library/is_repeat.c
         push_swap_library/lst_new.c
         push_swap_library/main_sort.c
+        push_swap_library/one_part_stack_a.c
         push_swap_library/pa.c
         push_swap_library/pb.c
         push_swap_library/ra_rb.c
@@ -93,5 +94,4 @@ add_executable(push_swap
         push_swap_library/sort_five_nums.c
         push_swap_library/sort_three_nums.c
         push_swap_library/ss.c
-        src_checker/checker.c
         src_push_swap/push_swap.c)

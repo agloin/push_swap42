@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/agloin/Desktop/github/push_swap42/includes/push_swap.h
+stdio.h
+-
+unistd.h
+-
+../libft/libft.h
+/Users/agloin/Desktop/github/push_swap42/libft/libft.h
+stdlib.h
+-
+
+/Users/agloin/Desktop/github/push_swap42/libft/libft.h
+unistd.h
+-
+sys/types.h
+/Users/agloin/Desktop/github/push_swap42/libft/sys/types.h
+unistd.h
+-
+limits.h
+-
+stdlib.h
+-
+string.h
+-
+fcntl.h
+/Users/agloin/Desktop/github/push_swap42/libft/fcntl.h
+
+/Users/agloin/Desktop/github/push_swap42/push_swap_library/main_sort.c
+../includes/push_swap.h
+/Users/agloin/Desktop/github/push_swap42/includes/push_swap.h
+

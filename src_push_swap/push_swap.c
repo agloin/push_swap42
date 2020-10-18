@@ -81,6 +81,8 @@ void	main_simplify2(int max, int min,
 
 void	main_simplify1(t_stack **stack_a, t_stack **stack_b, int argc)
 {
+	if (len_stack(*stack_a) == 2)
+		exec_command("ra", stack_a, stack_b);
 	if (len_stack(*stack_a) == 3)
 		sort_three_nums(stack_a, stack_b);
 	else if (len_stack(*stack_a) == 5)
@@ -104,10 +106,7 @@ int		main(int argc, char **argv)
 	{
 		fill_stack(&stack_a, argv);
 		if (check_ascending_oder(stack_a, stack_b))
-		{
-			write(1, "OK\n", 3);
 			exit(0);
-		}
 		main_simplify1(&stack_a, &stack_b, argc);
 	}
 	clean_memory(&stack_a, &stack_b);

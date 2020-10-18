@@ -6,5 +6,5 @@ C_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacO
 
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/agloin/Desktop/intra/push_swap/includes -I/Users/agloin/Desktop/intra/push_swap/libft 
+C_INCLUDES = -I/Users/agloin/Desktop/github/push_swap42/includes -I/Users/agloin/Desktop/github/push_swap42/libft 
 
