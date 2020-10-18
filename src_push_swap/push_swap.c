@@ -83,7 +83,7 @@ void	main_simplify1(t_stack **stack_a, t_stack **stack_b, int argc)
 {
 	if (len_stack(*stack_a) == 2)
 		exec_command("ra", stack_a, stack_b);
-	if (len_stack(*stack_a) == 3)
+	else if (len_stack(*stack_a) == 3)
 		sort_three_nums(stack_a, stack_b);
 	else if (len_stack(*stack_a) == 5)
 		sort_five_nums(stack_a, stack_b);
