@@ -14,7 +14,7 @@
 
 int		ft_isdigit_str(char *str)
 {
-	int i;
+	size_t i;
 
 	i = 0;
 	if (ft_strlen(str) > 1 && str[i] == '-')
@@ -22,7 +22,7 @@ int		ft_isdigit_str(char *str)
 		i++;
 		while (str[i])
 		{
-			if (ft_isdigit(str[i]) != 1)
+			if (ft_isdig(str[i]) != 1)
 				return (0);
 			i++;
 		}
@@ -34,7 +34,7 @@ int		ft_isdigit_str(char *str)
 	else if (str[i] != '-')
 		while (str[i])
 		{
-			if (ft_isdigit(str[i]) != 1)
+			if (ft_isdig(str[i]) != 1)
 				return (0);
 			i++;
 		}

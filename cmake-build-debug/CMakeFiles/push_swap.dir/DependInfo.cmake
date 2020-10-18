@@ -18,7 +18,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/agloin/Desktop/intra/push_swap/libft/ft_lstdel.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_lstdel.c.o"
   "/Users/agloin/Desktop/intra/push_swap/libft/ft_lstdelone.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_lstdelone.c.o"
   "/Users/agloin/Desktop/intra/push_swap/libft/ft_lstiter.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_lstiter.c.o"
-  "/Users/agloin/Desktop/intra/push_swap/libft/ft_lstmap.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_lstmap.c.o"
   "/Users/agloin/Desktop/intra/push_swap/libft/ft_lstnew.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_lstnew.c.o"
   "/Users/agloin/Desktop/intra/push_swap/libft/ft_memalloc.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_memalloc.c.o"
   "/Users/agloin/Desktop/intra/push_swap/libft/ft_memccpy.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_memccpy.c.o"
@@ -74,10 +73,12 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/agloin/Desktop/intra/push_swap/push_swap_library/find_command.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_library/find_command.c.o"
   "/Users/agloin/Desktop/intra/push_swap/push_swap_library/find_extremum.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_library/find_extremum.c.o"
   "/Users/agloin/Desktop/intra/push_swap/push_swap_library/find_position.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_library/find_position.c.o"
+  "/Users/agloin/Desktop/intra/push_swap/push_swap_library/functions_for_main_sort.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_library/functions_for_main_sort.c.o"
   "/Users/agloin/Desktop/intra/push_swap/push_swap_library/is_digit.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_library/is_digit.c.o"
   "/Users/agloin/Desktop/intra/push_swap/push_swap_library/is_repeat.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_library/is_repeat.c.o"
   "/Users/agloin/Desktop/intra/push_swap/push_swap_library/lst_new.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_library/lst_new.c.o"
   "/Users/agloin/Desktop/intra/push_swap/push_swap_library/main_sort.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_library/main_sort.c.o"
+  "/Users/agloin/Desktop/intra/push_swap/push_swap_library/one_part_stack_a.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_library/one_part_stack_a.c.o"
   "/Users/agloin/Desktop/intra/push_swap/push_swap_library/pa.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_library/pa.c.o"
   "/Users/agloin/Desktop/intra/push_swap/push_swap_library/pb.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_library/pb.c.o"
   "/Users/agloin/Desktop/intra/push_swap/push_swap_library/ra_rb.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_library/ra_rb.c.o"
@@ -88,7 +89,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/agloin/Desktop/intra/push_swap/push_swap_library/sort_five_nums.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_library/sort_five_nums.c.o"
   "/Users/agloin/Desktop/intra/push_swap/push_swap_library/sort_three_nums.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_library/sort_three_nums.c.o"
   "/Users/agloin/Desktop/intra/push_swap/push_swap_library/ss.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_library/ss.c.o"
-  "/Users/agloin/Desktop/intra/push_swap/src_checker/checker.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src_checker/checker.c.o"
   "/Users/agloin/Desktop/intra/push_swap/src_push_swap/push_swap.c" "/Users/agloin/Desktop/intra/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src_push_swap/push_swap.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")

@@ -127,9 +127,6 @@
 		<Unit filename="/Users/agloin/Desktop/intra/push_swap/libft/ft_lstiter.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/agloin/Desktop/intra/push_swap/libft/ft_lstmap.c">
-			<Option target="push_swap"/>
-		</Unit>
 		<Unit filename="/Users/agloin/Desktop/intra/push_swap/libft/ft_lstnew.c">
 			<Option target="push_swap"/>
 		</Unit>
@@ -298,6 +295,9 @@
 		<Unit filename="/Users/agloin/Desktop/intra/push_swap/push_swap_library/find_position.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/agloin/Desktop/intra/push_swap/push_swap_library/functions_for_main_sort.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/agloin/Desktop/intra/push_swap/push_swap_library/is_digit.c">
 			<Option target="push_swap"/>
 		</Unit>
@@ -308,6 +308,9 @@
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/agloin/Desktop/intra/push_swap/push_swap_library/main_sort.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/agloin/Desktop/intra/push_swap/push_swap_library/one_part_stack_a.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/agloin/Desktop/intra/push_swap/push_swap_library/pa.c">
@@ -338,9 +341,6 @@
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/agloin/Desktop/intra/push_swap/push_swap_library/ss.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/agloin/Desktop/intra/push_swap/src_checker/checker.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/agloin/Desktop/intra/push_swap/src_push_swap/push_swap.c">

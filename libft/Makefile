@@ -70,10 +70,9 @@ SRC =	ft_atoi.c\
 	  ft_lstdel.c\
 	  ft_lstadd.c\
 	  ft_lstiter.c\
-	  ft_swap_int\
-	  ft_isdigit_str\
-
-# 	  ft_lstmap.c
+	  ft_isdigit_str.c\
+      ft_swap_int.c\
+	  get_next_line.c
 
 OBJS = $(SRC:.c=.o)
 
@@ -82,12 +81,16 @@ HEADER = libft.h
 all: $(NAME)
 
 $(NAME):$(OBJS)
-	ar rc $@ $^
+	@ar rc $@ $^
+	@echo "LIB COMPILED"
 %.o: %.c
-	gcc -Wall -Werror -Wextra  $(HEADER) -c $<
+	@gcc -Wall -Werror -Wextra  $(HEADER) -c $<
 
 clean:
-	/bin/rm -f $(OBJS)
+	@rm -f $(OBJS)
+
 fclean: clean
-	/bin/rm -f $(NAME)
-re: fclean $(NAME)
+	@rm -f $(OBJS)
+	@rm -f $(NAME)
+
+re: fclean all

@@ -521,33 +521,6 @@ libft/ft_lstiter.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_lstiter.c.s
 .PHONY : libft/ft_lstiter.c.s
 
-libft/ft_lstmap.o: libft/ft_lstmap.c.o
-
-.PHONY : libft/ft_lstmap.o
-
-# target to build an object file
-libft/ft_lstmap.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_lstmap.c.o
-.PHONY : libft/ft_lstmap.c.o
-
-libft/ft_lstmap.i: libft/ft_lstmap.c.i
-
-.PHONY : libft/ft_lstmap.i
-
-# target to preprocess a source file
-libft/ft_lstmap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_lstmap.c.i
-.PHONY : libft/ft_lstmap.c.i
-
-libft/ft_lstmap.s: libft/ft_lstmap.c.s
-
-.PHONY : libft/ft_lstmap.s
-
-# target to generate assembly for a file
-libft/ft_lstmap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_lstmap.c.s
-.PHONY : libft/ft_lstmap.c.s
-
 libft/ft_lstnew.o: libft/ft_lstnew.c.o
 
 .PHONY : libft/ft_lstnew.o
@@ -2033,6 +2006,33 @@ push_swap_library/find_position.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap_library/find_position.c.s
 .PHONY : push_swap_library/find_position.c.s
 
+push_swap_library/functions_for_main_sort.o: push_swap_library/functions_for_main_sort.c.o
+
+.PHONY : push_swap_library/functions_for_main_sort.o
+
+# target to build an object file
+push_swap_library/functions_for_main_sort.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap_library/functions_for_main_sort.c.o
+.PHONY : push_swap_library/functions_for_main_sort.c.o
+
+push_swap_library/functions_for_main_sort.i: push_swap_library/functions_for_main_sort.c.i
+
+.PHONY : push_swap_library/functions_for_main_sort.i
+
+# target to preprocess a source file
+push_swap_library/functions_for_main_sort.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap_library/functions_for_main_sort.c.i
+.PHONY : push_swap_library/functions_for_main_sort.c.i
+
+push_swap_library/functions_for_main_sort.s: push_swap_library/functions_for_main_sort.c.s
+
+.PHONY : push_swap_library/functions_for_main_sort.s
+
+# target to generate assembly for a file
+push_swap_library/functions_for_main_sort.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap_library/functions_for_main_sort.c.s
+.PHONY : push_swap_library/functions_for_main_sort.c.s
+
 push_swap_library/is_digit.o: push_swap_library/is_digit.c.o
 
 .PHONY : push_swap_library/is_digit.o
@@ -2140,6 +2140,33 @@ push_swap_library/main_sort.s: push_swap_library/main_sort.c.s
 push_swap_library/main_sort.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap_library/main_sort.c.s
 .PHONY : push_swap_library/main_sort.c.s
+
+push_swap_library/one_part_stack_a.o: push_swap_library/one_part_stack_a.c.o
+
+.PHONY : push_swap_library/one_part_stack_a.o
+
+# target to build an object file
+push_swap_library/one_part_stack_a.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap_library/one_part_stack_a.c.o
+.PHONY : push_swap_library/one_part_stack_a.c.o
+
+push_swap_library/one_part_stack_a.i: push_swap_library/one_part_stack_a.c.i
+
+.PHONY : push_swap_library/one_part_stack_a.i
+
+# target to preprocess a source file
+push_swap_library/one_part_stack_a.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap_library/one_part_stack_a.c.i
+.PHONY : push_swap_library/one_part_stack_a.c.i
+
+push_swap_library/one_part_stack_a.s: push_swap_library/one_part_stack_a.c.s
+
+.PHONY : push_swap_library/one_part_stack_a.s
+
+# target to generate assembly for a file
+push_swap_library/one_part_stack_a.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap_library/one_part_stack_a.c.s
+.PHONY : push_swap_library/one_part_stack_a.c.s
 
 push_swap_library/pa.o: push_swap_library/pa.c.o
 
@@ -2411,33 +2438,6 @@ push_swap_library/ss.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap_library/ss.c.s
 .PHONY : push_swap_library/ss.c.s
 
-src_checker/checker.o: src_checker/checker.c.o
-
-.PHONY : src_checker/checker.o
-
-# target to build an object file
-src_checker/checker.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src_checker/checker.c.o
-.PHONY : src_checker/checker.c.o
-
-src_checker/checker.i: src_checker/checker.c.i
-
-.PHONY : src_checker/checker.i
-
-# target to preprocess a source file
-src_checker/checker.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src_checker/checker.c.i
-.PHONY : src_checker/checker.c.i
-
-src_checker/checker.s: src_checker/checker.c.s
-
-.PHONY : src_checker/checker.s
-
-# target to generate assembly for a file
-src_checker/checker.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src_checker/checker.c.s
-.PHONY : src_checker/checker.c.s
-
 src_push_swap/push_swap.o: src_push_swap/push_swap.c.o
 
 .PHONY : src_push_swap/push_swap.o
@@ -2516,9 +2516,6 @@ help:
 	@echo "... libft/ft_lstiter.o"
 	@echo "... libft/ft_lstiter.i"
 	@echo "... libft/ft_lstiter.s"
-	@echo "... libft/ft_lstmap.o"
-	@echo "... libft/ft_lstmap.i"
-	@echo "... libft/ft_lstmap.s"
 	@echo "... libft/ft_lstnew.o"
 	@echo "... libft/ft_lstnew.i"
 	@echo "... libft/ft_lstnew.s"
@@ -2684,6 +2681,9 @@ help:
 	@echo "... push_swap_library/find_position.o"
 	@echo "... push_swap_library/find_position.i"
 	@echo "... push_swap_library/find_position.s"
+	@echo "... push_swap_library/functions_for_main_sort.o"
+	@echo "... push_swap_library/functions_for_main_sort.i"
+	@echo "... push_swap_library/functions_for_main_sort.s"
 	@echo "... push_swap_library/is_digit.o"
 	@echo "... push_swap_library/is_digit.i"
 	@echo "... push_swap_library/is_digit.s"
@@ -2696,6 +2696,9 @@ help:
 	@echo "... push_swap_library/main_sort.o"
 	@echo "... push_swap_library/main_sort.i"
 	@echo "... push_swap_library/main_sort.s"
+	@echo "... push_swap_library/one_part_stack_a.o"
+	@echo "... push_swap_library/one_part_stack_a.i"
+	@echo "... push_swap_library/one_part_stack_a.s"
 	@echo "... push_swap_library/pa.o"
 	@echo "... push_swap_library/pa.i"
 	@echo "... push_swap_library/pa.s"
@@ -2726,9 +2729,6 @@ help:
 	@echo "... push_swap_library/ss.o"
 	@echo "... push_swap_library/ss.i"
 	@echo "... push_swap_library/ss.s"
-	@echo "... src_checker/checker.o"
-	@echo "... src_checker/checker.i"
-	@echo "... src_checker/checker.s"
 	@echo "... src_push_swap/push_swap.o"
 	@echo "... src_push_swap/push_swap.i"
 	@echo "... src_push_swap/push_swap.s"
