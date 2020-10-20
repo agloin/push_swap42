@@ -18,5 +18,13 @@
 
 int		one_part_stack_a(int max_in_stack_a, int min_in_stack_a)
 {
-	return (((max_in_stack_a - min_in_stack_a) / 3));
+	if (max_in_stack_a < 0 && min_in_stack_a < 0)
+		return (min_in_stack_a + (max_in_stack_a - min_in_stack_a) / 3);
+	else if (max_in_stack_a > 0 && min_in_stack_a > 0)
+		return (((max_in_stack_a - min_in_stack_a) / 3));
+	else if ((max_in_stack_a > 0 && min_in_stack_a < 0)
+				&& (-(max_in_stack_a / 2) > min_in_stack_a))
+		return ((-(max_in_stack_a - min_in_stack_a) / 3));
+	else
+		return (((max_in_stack_a - min_in_stack_a) / 3));
 }

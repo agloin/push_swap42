@@ -6,21 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/agloin/Desktop/github/push_swap42/includes/push_swap.h
-stdio.h
--
-unistd.h
--
-../libft/libft.h
-/Users/agloin/Desktop/github/push_swap42/libft/libft.h
-stdlib.h
--
+/home/agloin/school21/github/push_swap42/libft/ft_isdigit_str.c
+libft.h
+/home/agloin/school21/github/push_swap42/libft/libft.h
 
-/Users/agloin/Desktop/github/push_swap42/libft/libft.h
+/home/agloin/school21/github/push_swap42/libft/libft.h
 unistd.h
 -
 sys/types.h
-/Users/agloin/Desktop/github/push_swap42/libft/sys/types.h
+/home/agloin/school21/github/push_swap42/libft/sys/types.h
 unistd.h
 -
 limits.h
@@ -30,9 +24,5 @@ stdlib.h
 string.h
 -
 fcntl.h
-/Users/agloin/Desktop/github/push_swap42/libft/fcntl.h
-
-/Users/agloin/Desktop/github/push_swap42/src_push_swap/push_swap.c
-../includes/push_swap.h
-/Users/agloin/Desktop/github/push_swap42/includes/push_swap.h
+/home/agloin/school21/github/push_swap42/libft/fcntl.h
 

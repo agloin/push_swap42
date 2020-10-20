@@ -6,7 +6,7 @@
 /*   By: agloin <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/16 20:22:23 by agloin            #+#    #+#             */
-/*   Updated: 2019/09/23 18:25:43 by agloin           ###   ########.fr       */
+/*   Updated: 2020/10/16 16:49:16 by agloin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,8 +31,10 @@ int		is_digit(char **argv)
 		}
 		else
 		{
-			if (ft_strlen(argv[i]) > 11 || ft_atoi(argv[i]) < -2147483648 ||
-				ft_atoi(argv[i]) > 2147483647)
+			if ((ft_strlen(argv[i]) >= 11 && ft_atoi(argv[i]) < -2147483648)
+			|| (ft_strlen(argv[i]) >= 11 && ft_atoi(argv[i]) > 2147483647
+					&& argv[i][0] == '+') || (ft_strlen(argv[i]) >= 10
+					&& ft_atoi(argv[i]) > 2147483647))
 			{
 				write(1, "Error\n", 6);
 				return (0);
